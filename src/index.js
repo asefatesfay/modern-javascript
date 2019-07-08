@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom"
-
-const title = "Welcome to react babel";
+import ReactDOM from "react-dom";
+import App from "./App";
 
 ReactDOM.render(
-    <div>{title}</div>,
+    <App />,
     document.getElementById("app")
 );
